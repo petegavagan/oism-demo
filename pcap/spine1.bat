@@ -1,0 +1,1 @@
+plink -P 22001 -l admin -pw admin -batch mitchlab2.packetanglers.com "bash sudo tcpdump -s 0 -Un -w - -i et1" | wireshark -k -i - -o "gui.window_title:SPINE1"
