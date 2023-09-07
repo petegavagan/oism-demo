@@ -5,7 +5,7 @@ all:
       children:
         lab:
           hosts:
-            A-SPINE1:
+            SPINE1:
               ansible_host: 127.0.0.1
               ansible_port: 22001
               ansible_httpapi_port: 44301
@@ -37,4 +37,3 @@ all:
               ansible_host: 127.0.0.1
               ansible_port: 22011
               ansible_httpapi_port: 44311
-s
